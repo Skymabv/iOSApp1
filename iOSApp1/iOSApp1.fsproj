@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-ios</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <SupportedOSPlatformVersion>13.0</SupportedOSPlatformVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="AppDelegate.fs" />
+    <Compile Include="SceneDelegate.fs" />
+    <Compile Include="Main.fs" />
+  </ItemGroup>
+</Project>
